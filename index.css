@@ -49,19 +49,11 @@ a:visited {
     align-self: center;
 }
 
-/* .navbar #title {
-    padding: 0 0.5em;
-    font-family: 'Stardew Valley', 'Roboto', sans-serif;
-    font-weight: normal;
-    font-size: 2.5em;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    user-select: none;
-} */
-
 .navbar #title-img {
+    max-width: 50%;
+    object-fit: contain;
+
+    margin-left: 2em;
     padding: 0 0.5em;
     text-align: center;
     display: flex;
@@ -135,4 +127,96 @@ a:visited {
 .content .heading #ccbt-img {
     width: 30ch;
     height: 30ch;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+    
+    .navbar #title-img {
+        max-width: 100%;
+        width: calc(100% - 2em);
+    }
+
+    .navbar #links {
+        margin: 0;
+        width: 100%;
+        /* height: 2em; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar #links a {
+        height: 1em;
+        font-size: 3em;
+        flex: 1;
+    }
+
+    .content {
+        width: calc(100% - 1em);
+        font-size: 2em;
+    }
+
+    .content .heading {
+        width: 70%;
+        height: auto;
+    }
+
+    .content .heading #ccbt-img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .content .about-this {
+        align-self: center;
+        width: calc(100% - 2em);
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .navbar {
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+    
+    .navbar #title-img {
+        max-width: 100%;
+        width: calc(100% - 2em);
+    }
+
+    .navbar #links {
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar #links a {
+        font-size: 1em;
+    }
+
+    .content {
+        /* margin-top: 1em; */
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .content .about-this {
+        width: 100%;
+    }
+
+    .content .heading {
+        width: 100%;
+    }
+
+    .content .heading #ccbt-img {
+        width: 100%;
+        height: 100%;
+    }
 }
