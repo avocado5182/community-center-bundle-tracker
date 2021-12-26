@@ -2,9 +2,9 @@
 A tool to help with completing the Community Center in Stardew Valley easier.
 
 This is in progress. Here's a list of planned features.
-- [ ] Index page
+- [x] Index page
   - [x] Desktop support
-  - [ ] Mobile support
+  - [x] Mobile support (somewhat lol)
 - [ ] Add all Stardew Items (or just the ones in the CC)
   - [ ] Short description, respective seasons for each item
   - [ ] Tip/trick relating to the item?
