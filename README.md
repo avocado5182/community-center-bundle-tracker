@@ -1,5 +1,6 @@
 # Community Center Bundle Tracker
 A tool to help with completing the Community Center in Stardew Valley easier.
+
 This is in progress. Here's a list of planned features.
 - [x] Index page
 - [ ] Add all Stardew Items (or just the ones in the CC)
