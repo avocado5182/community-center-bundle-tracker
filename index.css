@@ -27,7 +27,7 @@ a:visited {
 }
 
 .index {
-    background: url(../img/stardewbackground.png) no-repeat fixed center center / cover;
+    background: url(/img/stardewbackground.png) no-repeat fixed center center / cover;
     image-rendering: pixelated;
 }
 
