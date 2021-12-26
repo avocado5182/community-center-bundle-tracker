@@ -49,9 +49,8 @@ a:visited {
     align-self: center;
 }
 
-.navbar #title {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+/* .navbar #title {
+    padding: 0 0.5em;
     font-family: 'Stardew Valley', 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 2.5em;
@@ -60,6 +59,21 @@ a:visited {
     align-items: center;
     justify-content: space-between;
     user-select: none;
+} */
+
+.navbar #title-img {
+    padding: 0 0.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none; 
+    -moz-user-drag: none; 
+    -o-user-drag: none; 
+    user-drag: none;
 }
 
 .navbar #links {
