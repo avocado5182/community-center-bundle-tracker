@@ -1,0 +1,124 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url('fonts/Stardew_Valley.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Stardew Valley';
+    font-weight: normal;
+    user-select: none;
+}
+
+a:link {
+    color: #E1A000;
+}
+
+a:visited {
+    color: #996e00;
+}
+
+.index {
+    background: url(../img/stardewbackground.png) no-repeat fixed center center / cover;
+    image-rendering: pixelated;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar * {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.navbar #title {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: 'Stardew Valley', 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.navbar #links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.navbar #links a {
+    padding-top: 1em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 10ch;
+    padding: 0 0.5em;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+}
+
+.navbar #links a:hover {
+    color: #E1A000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    margin: auto;
+    width: calc(80ch + 2em);
+    background-color: #FAEC9C;
+    color: black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content .about-this {
+    align-self: center;
+    width: 80ch;
+}
+
+.content .heading {
+    width: 60ch;
+    text-align: center;
+}
+
+.content .heading h1 {
+    margin: 0.5em 0;
+}
+
+.content .heading #ccbt-img {
+    width: 30ch;
+    height: 30ch;
+}
